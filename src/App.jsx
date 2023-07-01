@@ -1,22 +1,23 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import About from './componnets/navigation/about/About';
-import Navigation from './componnets/Navigation';
-import Contact from './componnets/navigation/contact/Contact';
-import Proj from './componnets/navigation/projects/Proj';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./componnets/NavBAr/About/About";
+import Contact from "./componnets/NavBAr/Contact/Contact";
+import Projects from "./componnets/NavBAr/Projects/Projects";
+import SubText from "./componnets/NavBAr/SubMsg/SubText";
+import Navigation from "./componnets/NavBAr/Navigation";
 
 const App = () => {
   return (
     <div>
-    <Navigation/>
-    <Router>
-      <Routes>
-        <Route path='/' element={<About/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
-        <Route path='/Projects' element={<Proj/>}/>
-        <Route path='/SubMsg'  element={<Proj/>}/>
-      </Routes>
-    </Router>
+<Navigation/>
+      {/* <Router>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/SubText" element={<SubText />} />
+        </Routes>
+      </Router> */}
     </div>
   );
 };
