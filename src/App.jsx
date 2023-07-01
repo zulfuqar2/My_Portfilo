@@ -5,11 +5,14 @@ import Contact from "./componnets/NavBAr/Contact/Contact";
 import Projects from "./componnets/NavBAr/Projects/Projects";
 import SubText from "./componnets/NavBAr/SubMsg/SubText";
 import Navigation from "./componnets/NavBAr/Navigation";
+import Name from "./componnets/Name";
 
 const App = () => {
   return (
     <div>
+      
 <Navigation/>
+
       {/* <Router>
         <Routes>
           <Route path="/" element={<About />} />

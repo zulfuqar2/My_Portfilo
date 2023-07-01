@@ -5,6 +5,7 @@ import Contact from './Contact/Contact';
 import Projects from './Projects/Projects';
 import SubText from './SubMsg/SubText';
 import '../NavBAr/Navigation.css'
+import Name from '../Name';
 
 function Navigation() {
   return (
@@ -19,6 +20,7 @@ function Navigation() {
       </ul>
     </nav>
     <div className='text'>
+      <p className='name'><Name/></p>
       <ul id='scroll'>
         <li className='About'>
           <About/>

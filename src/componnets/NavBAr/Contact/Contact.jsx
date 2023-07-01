@@ -5,7 +5,7 @@ function Contact() {
     <>
       <div>
        <p>Telephone Numbr </p>
-
+       {/* <img  src='img/bg-img.jpg'/> */}
 
 
 

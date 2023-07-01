@@ -19,3 +19,13 @@
 #navigation :hover {
   color: red;
 }
+
+.name{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    background-image: url(../img/360_F_511741492_lmJMnJFAKIFF27WfFsaBYO5FgBWc1lJu.jpg);
+    background-size: cover;
+    
+}

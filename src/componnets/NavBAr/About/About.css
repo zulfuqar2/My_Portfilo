@@ -3,3 +3,18 @@
     width: 65%;
     margin: 35px;
 }
+
+.img{
+    width: 45%;
+    background-color: aquamarine;
+    background-image: url(../../img/bg-img.jpg);
+    background-size: cover;
+    padding: 5px;
+    margin: 18px;
+
+}
+.container{
+    display: flex;
+background-color: black;
+transform: rotate(1 1 1 0 0 0);
+}
