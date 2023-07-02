@@ -3,21 +3,82 @@
     padding: 0;
     box-sizing: border-box;
 }
+.box{
+    background-color: black;
+    width: 100%;
+}
 
 .links{
+    width: 100%;
+    background-color: black;
     display: flex;
     font-size: 34px;
     margin: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     color: aliceblue;
-    >a{
-        margin: 10px;
-        justify-content: space-around;
-        display: flex;
-        flex-direction: column-reverse;
-        color: brown;
-        text-decoration: none;
-    }
-    >h1{
-        color: aliceblue;
-    }
+
+}ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+a{
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    color: brown;
+    text-decoration: none;
+    
+}
+.proj{
+    color: aliceblue;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    margin: 0;
+}
+ul{
+    display: block;
+}
+.WheAp{
+    background-image: url(../../img/weApp.png);
+    background-size: cover;
+    width: 900px;
+    height: 540px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 30px;
+}
+.MoovieApp{
+    background-image: url(../../img/moovie.png);
+    /* width: 8900; */
+    height: 440px;
+    background-size: cover;
+}
+
+.Converter{
+    background-image: url(../../img/converter.png);
+    width: 900;
+    height: 440px;
+    background-size: cover;
+}
+.QuizApp{
+    background-image: url(../../img/quiz.png);
+    width: 900;
+    height: 640px;
+    background-size: cover;
+}
+.SignIn{
+    background-image: url(../../img/login.png);
+    height: 440px;
+    background-size: cover;
+}
+.HtmlCss{
+    background-image: url(../../img/htmlcss.png);
+    height: 440px;
+    background-size: cover; 
 }
