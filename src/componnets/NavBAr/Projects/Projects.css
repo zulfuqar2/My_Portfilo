@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.links{
+    display: flex;
+    font-size: 34px;
+    margin: 10px;
+    color: aliceblue;
+    >a{
+        margin: 10px;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: column-reverse;
+        color: brown;
+        text-decoration: none;
+    }
+    >h1{
+        color: aliceblue;
+    }
+}

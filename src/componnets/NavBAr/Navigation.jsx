@@ -16,7 +16,7 @@ function Navigation() {
         <li>About</li>
         <li>Contact</li>
         <li>Projects</li>
-        <li>Submit  email</li>
+        <li>Submit Site Idea</li>
       </ul>
     </nav>
     <div className='text'>

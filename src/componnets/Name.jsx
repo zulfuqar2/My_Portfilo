@@ -6,10 +6,10 @@ function Name() {
     <>
     <h1>Seyfullalı Zülfüqar</h1>
     <body>
-    <h1>  <span>Developing</span>
+    <h1>  <span>Working I am</span>
   <div class="message">
     <div class="word1"> JavaScript</div>
-    <div class="word2">React</div>
+    <div class="word2">React.Js</div>
     <div class="word3">Node.js</div>
   </div></h1>
     </body>

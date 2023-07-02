@@ -19,26 +19,25 @@ body {
   
   h1 span {
     font-size: 40px;
-    margin-right: 850px;
-
+    margin-right: -50px;
 }
   
   .message {
     background-color: transparent;
     color: white;
     display: block;
-    font-weight: 900;
+    font-weight: 30px;
     overflow: hidden;
     position: absolute;
     padding-left: 40px;
     top: 0.2rem;
     left: 70px;
-    animation: openclose 6s ease-in-out infinite;
+    animation: openclose 5s ease-in-out infinite;
   }
   
   .word0,.word1, .word2, .word3 {
     font-family: tahoma;
-    margin-left: 240px;
+    margin-left: 20px;
   }
   
   @keyframes openclose {
