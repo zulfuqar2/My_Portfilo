@@ -32,7 +32,7 @@ body {
     padding-left: 40px;
     top: 0.2rem;
     left: 70px;
-    animation: openclose 5s ease-in-out infinite;
+    animation: openclose 10s ease-in-out infinite;
   }
   
   .word0,.word1, .word2, .word3 {
